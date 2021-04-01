@@ -35,7 +35,7 @@ public class Test1 {
 	static void clickByXpath(String xpath, WebDriver driver) {
 		WebElement button = driver.findElement(By.className(xpath));
 		button.click();
-		// Click through x-path
+		// Click through xpath
 	}
 }
 
