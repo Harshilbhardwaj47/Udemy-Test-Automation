@@ -16,7 +16,6 @@ public class Test1 {
 
 		giveInput("id_fullname", "Harshil bhardwaj", driver);
 		giveInput("email--1", "500068580@stu.upes.ac.in", driver);
-		giveInput("password", "123456", driver);
 		clickById("submit-id-submit", driver);
 
 		// clickByXpath("/html/body/div[1]/div[1]/div[2]/div[7]/a/span", driver);

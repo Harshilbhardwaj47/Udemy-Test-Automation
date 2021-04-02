@@ -11,15 +11,13 @@ public class Test1 {
 
 		WebDriver driver = new FirefoxDriver();
 
-		driver.navigate().to(
-				"https://www.udemy.com/join/signup-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2Flogout%2F");
+		driver.navigate().to("https://www.udemy.com");
 
-		giveInput("id_fullname", "Harshil bhardwaj", driver);
-		giveInput("email--1", "500068580@stu.upes.ac.in", driver);
-		giveInput("password", "123456", driver);
-		clickById("submit-id-submit", driver);
+		//giveInput("id_fullname", "Harshil bhardwaj", driver);
+		//giveInput("email--1", "500068580@stu.upes.ac.in", driver);
+		//clickById("submit-id-submit", driver);
 
-		// clickByXpath("/html/body/div[1]/div[1]/div[2]/div[7]/a/span", driver);
+		clickByXpath("/html/body/div[1]/div[1]/div[2]/div[7]/a/span", driver);
 	}
 
 	static void giveInput(String id, String inputText, WebDriver driver) {
