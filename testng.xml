@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="tests.Test1"/>
+      <class name="tests.Signin"/>
     </classes>
   </test>
 </suite> 

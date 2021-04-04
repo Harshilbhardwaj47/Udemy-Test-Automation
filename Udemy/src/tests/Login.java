@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Test2 {
+public class Login {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Softwares\\firefoxdriver\\geckodriver.exe");
 
@@ -17,6 +17,8 @@ public class Test2 {
 
 		giveInput("email--1", "500068580@stu.upes.ac.in", driver);
 		giveInput("id_password", "123456", driver);
+
+		driver.quit();
 	}
 
 	static void giveInput(String id, String inputText, WebDriver driver) {
