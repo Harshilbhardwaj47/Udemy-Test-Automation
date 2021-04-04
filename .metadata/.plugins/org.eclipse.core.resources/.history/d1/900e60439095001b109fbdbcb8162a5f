@@ -13,8 +13,8 @@ public class Test1 {
 
 		driver.navigate().to("https://www.udemy.com");
 
-		driver.findElement(By.xpath("//*[@id=\"udemy\"]/div[1]/div[1]/div[2]/div[7]/a")).click();
-
+		
+		
 		giveInput("id_fullname", "Harshil bhardwaj", driver);
 		giveInput("email--1", "500068580@stu.upes.ac.in", driver);
 		giveInput("password", "123456", driver);

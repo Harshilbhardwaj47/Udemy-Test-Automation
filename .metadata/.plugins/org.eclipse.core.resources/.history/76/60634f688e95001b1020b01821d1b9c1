@@ -3,18 +3,18 @@ package tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Test1 {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Softwares\\firefoxdriver\\geckodriver.exe");
 
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
 
 		driver.navigate().to("https://www.udemy.com");
 
-		driver.findElement(By.xpath("//*[@id=\"udemy\"]/div[1]/div[1]/div[2]/div[7]/a")).click();
-
+		driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[3]/div[7]/a/span")).click();
+		giveInput("u525-search-form-autocomplete--3", "inputText", driver);
 		giveInput("id_fullname", "Harshil bhardwaj", driver);
 		giveInput("email--1", "500068580@stu.upes.ac.in", driver);
 		giveInput("password", "123456", driver);

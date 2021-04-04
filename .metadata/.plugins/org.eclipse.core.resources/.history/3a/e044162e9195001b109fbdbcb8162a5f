@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Test1 {
+public class Test2 {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\chromedriver_win32\\chromedriver.exe");
 
@@ -13,13 +13,10 @@ public class Test1 {
 
 		driver.navigate().to("https://www.udemy.com");
 
-		driver.findElement(By.xpath("//*[@id=\"udemy\"]/div[1]/div[1]/div[2]/div[7]/a")).click();
+		driver.findElement(By.xpath("//*[@id=\"udemy\"]/div[1]/div[1]/div[2]/div[6]/a")).click();
 
-		giveInput("id_fullname", "Harshil bhardwaj", driver);
 		giveInput("email--1", "500068580@stu.upes.ac.in", driver);
-		giveInput("password", "123456", driver);
-		clickById("submit-id-submit", driver);
-
+		giveInput("id_password", "123456", driver);
 	}
 
 	static void giveInput(String id, String inputText, WebDriver driver) {
@@ -33,12 +30,4 @@ public class Test1 {
 		button.click();
 		// Click through ID
 	}
-
-	static void clickByXpath(String xpath, WebDriver driver) {
-		WebElement button = driver.findElement(By.xpath(xpath));
-		button.click();
-		// Click through x-path
-	}
 }
-
-//This test will test the functionality of sign up 
