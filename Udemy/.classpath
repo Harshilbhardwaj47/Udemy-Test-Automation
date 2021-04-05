@@ -14,5 +14,8 @@
 	<classpathentry kind="lib" path="C:/Softwares/selenium/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Softwares/selenium/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/jar/lib/poi-3.11.jar"/>
+	<classpathentry kind="lib" path="C:/jar/lib/poi-ooxml-3.6.jar"/>
+	<classpathentry kind="lib" path="C:/jar/lib/poi-ooxml-schemas-3.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class B1 {
+public class B7 {
 
 	String baseUrl = "https://www.amazon.in/";
 	String driverPath = "C:\\\\Softwares\\\\chromedriver_win32\\\\chromedriver.exe";

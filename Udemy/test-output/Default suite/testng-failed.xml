@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="samplebuild.B1">
+      <class name="testng.T3">
         <methods>
-          <include name="destroySession"/>
-          <include name="signin"/>
-          <include name="browserLaunch"/>
-          <include name="enterPassword"/>
+          <include name="nextTab"/>
+          <include name="closeChromeWindow"/>
+          <include name="openAmazon"/>
+          <include name="mrp"/>
+          <include name="addToCart"/>
         </methods>
-      </class> <!-- samplebuild.B1 -->
+      </class> <!-- testng.T3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
