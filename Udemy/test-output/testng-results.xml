@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-04T16:34:17 GMT-07:00" name="Default suite" finished-at="2021-04-04T16:34:30 GMT-07:00" duration-ms="12981">
+  <suite started-at="2021-04-04T19:43:58 GMT-07:00" name="Default suite" finished-at="2021-04-04T19:44:08 GMT-07:00" duration-ms="9572">
     <groups>
     </groups>
-    <test started-at="2021-04-04T16:34:17 GMT-07:00" name="Default test" finished-at="2021-04-04T16:34:30 GMT-07:00" duration-ms="12981">
+    <test started-at="2021-04-04T19:43:58 GMT-07:00" name="Default test" finished-at="2021-04-04T19:44:08 GMT-07:00" duration-ms="9572">
       <class name="samplebuild.B1">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:17 GMT-07:00" name="browserLaunch" finished-at="2021-04-04T16:34:24 GMT-07:00" duration-ms="7030" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:43:58 GMT-07:00" name="browserLaunch" finished-at="2021-04-04T19:44:05 GMT-07:00" duration-ms="6830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="titleVerify()[pri:0, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:24 GMT-07:00" name="titleVerify" finished-at="2021-04-04T16:34:24 GMT-07:00" duration-ms="71" status="PASS">
+        <test-method signature="titleVerify()[pri:0, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:44:05 GMT-07:00" name="titleVerify" finished-at="2021-04-04T19:44:05 GMT-07:00" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleVerify -->
-        <test-method signature="clickSignin()[pri:1, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:24 GMT-07:00" name="clickSignin" finished-at="2021-04-04T16:34:25 GMT-07:00" duration-ms="1149" status="PASS">
+        <test-method signature="clickSignin()[pri:1, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:44:05 GMT-07:00" name="clickSignin" finished-at="2021-04-04T19:44:06 GMT-07:00" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignin -->
-        <test-method signature="enterEmail()[pri:2, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:25 GMT-07:00" name="enterEmail" finished-at="2021-04-04T16:34:25 GMT-07:00" duration-ms="91" status="PASS">
+        <test-method signature="enterEmail()[pri:2, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:44:06 GMT-07:00" name="enterEmail" finished-at="2021-04-04T19:44:07 GMT-07:00" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method signature="clickContinue()[pri:3, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:25 GMT-07:00" name="clickContinue" finished-at="2021-04-04T16:34:26 GMT-07:00" duration-ms="426" status="PASS">
+        <test-method signature="clickContinue()[pri:3, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:44:07 GMT-07:00" name="clickContinue" finished-at="2021-04-04T19:44:07 GMT-07:00" duration-ms="656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContinue -->
-        <test-method signature="enterPassword()[pri:4, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:26 GMT-07:00" name="enterPassword" finished-at="2021-04-04T16:34:26 GMT-07:00" duration-ms="36" status="FAIL">
+        <test-method signature="enterPassword()[pri:4, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:44:07 GMT-07:00" name="enterPassword" finished-at="2021-04-04T19:44:07 GMT-07:00" duration-ms="39" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
@@ -36,8 +36,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'LAPTOP-AIVN7TRG', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54693}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bc2143583f13eee7cf553273bce624f8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a01a9f3fc89ed8fbf1a8c84c1e788c02
 *** Element info: {Using=id, value=ap_password}]]>
             </message>
             <full-stacktrace>
@@ -47,8 +47,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'LAPTOP-AIVN7TRG', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54693}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bc2143583f13eee7cf553273bce624f8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a01a9f3fc89ed8fbf1a8c84c1e788c02
 *** Element info: {Using=id, value=ap_password}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -100,7 +100,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPassword -->
-        <test-method signature="signin()[pri:5, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:26 GMT-07:00" name="signin" finished-at="2021-04-04T16:34:26 GMT-07:00" duration-ms="33" status="FAIL">
+        <test-method signature="signin()[pri:5, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:44:07 GMT-07:00" name="signin" finished-at="2021-04-04T19:44:07 GMT-07:00" duration-ms="36" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#signInSubmit"}
@@ -109,8 +109,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'LAPTOP-AIVN7TRG', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54693}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bc2143583f13eee7cf553273bce624f8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a01a9f3fc89ed8fbf1a8c84c1e788c02
 *** Element info: {Using=id, value=signInSubmit}]]>
             </message>
             <full-stacktrace>
@@ -120,8 +120,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'LAPTOP-AIVN7TRG', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54693}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bc2143583f13eee7cf553273bce624f8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a01a9f3fc89ed8fbf1a8c84c1e788c02
 *** Element info: {Using=id, value=signInSubmit}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -173,7 +173,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method is-config="true" signature="destroySession()[pri:0, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T16:34:26 GMT-07:00" name="destroySession" finished-at="2021-04-04T16:34:30 GMT-07:00" duration-ms="4104" status="PASS">
+        <test-method is-config="true" signature="destroySession()[pri:0, instance:samplebuild.B1@87a85e1]" started-at="2021-04-04T19:44:07 GMT-07:00" name="destroySession" finished-at="2021-04-04T19:44:08 GMT-07:00" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroySession -->

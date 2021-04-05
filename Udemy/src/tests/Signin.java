@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class Signin {
 	@BeforeTest
-	public static void ma() throws InterruptedException {
+	public static void main(String args[]) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\chromedriver_win32\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
