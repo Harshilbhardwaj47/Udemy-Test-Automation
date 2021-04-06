@@ -16,7 +16,7 @@ public class Signin {
 
 		driver.navigate().to("https://www.udemy.com");
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//*[@id=\"udemy\"]/div[1]/div[1]/div[2]/div[7]/a")).click();
+		driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[3]/div[7]/a")).click();
 
 		giveInput("id_fullname", "Harshil bhardwaj", driver);
 		giveInput("email--1", "500068580@stu.upes.ac.in", driver);

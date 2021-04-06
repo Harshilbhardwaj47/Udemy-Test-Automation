@@ -1,16 +1,9 @@
 INDEX VERSION 1.131+D:\Opensourceworkspace\Udemy\.metadata\.plugins\org.eclipse.jdt.core
 2401202286.index
 3766586924.index
-971300666.index
-1513806453.index
-1010814451.index
 3402585093.index
-3174560284.index
-674802039.index
 3737175278.index
 302498507.index
 3854159189.index
-1226576570.index
-300018292.index
-4161891220.index
+89632554.index
 967810169.index

@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite" parallel="false">
-  <test name="Test">
-    <classes>
-      <class name="tests.Signin"/>
-    </classes>
-  </test>
-</suite> 
+
+<!DOCTYPE suite SYSTEM "testng.org/testng-1.0.dtd" >
+
+<suite name="sample">
+
+ 	<test name ="regression">
+
+ 		<classes>
+
+		<class name ="tests.Signin">
+
+		</class>
+
+	</classes>
+
+ 	</test>
+
+</suite>

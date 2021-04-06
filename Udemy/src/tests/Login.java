@@ -17,6 +17,7 @@ public class Login {
 
 		giveInput("email--1", "500068580@stu.upes.ac.in", driver);
 		giveInput("id_password", "123456", driver);
+		clickById("submit-id-submit", driver);
 
 		driver.quit();
 	}
